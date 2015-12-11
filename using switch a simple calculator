@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+//initialize the variables
+int a,b,ch;
+printf("Enter numbers:");
+scanf("%d%d",&a,&b);//take the numbers as input
+printf("1:add\n 2:subtract\n 3: Multiply\n 4:Division\n");
+scanf("%d",&ch);
+switch(ch)//use of swich case
+{
+      case 1 :
+        printf("addition :%d ",a+b);
+            break;
+      case 2 :
+        printf("subtract :%d ",a-b);
+            break;
+      case 3 :
+        printf("Multiplication %d: ",a*b);
+            break;
+       case 4 :
+        printf("Division : %d",a/b);
+            break;
+        default :
+            break;
+      }
+        return 0;
+}
