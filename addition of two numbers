@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+int a,b; //initialize the variables
+printf("Enter two numbers:");
+scanf("%d%d",&a,&b);//take the numbers you want to add as input
+printf("sum = %d",a+b);//Now performing the addition in print syntax itself
+}
