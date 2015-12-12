@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int pow,i;
+    long long num,temp;
+    printf("Enter number: ");
+    scanf("%d",&num);
+    temp = num;
+    printf("Enter power: ");
+    scanf("%d",&pow);
+    for(i=1;i<pow;++i)
+    {
+      num = temp*num;
+    }
+      printf("The  result is = %d",num);
+}
