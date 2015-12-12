@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+        char c;
+        printf("Enter the value whose ASCII you want: ");
+        scanf("%c",&c);
+        printf("The ASCII value will be: %d",c);
+}
