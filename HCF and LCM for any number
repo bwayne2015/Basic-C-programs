@@ -29,7 +29,7 @@ int lcm(int a,int b)
 }
 int main(){
 int ch;
-int a,b,h,l;
+int a,b;
 printf("Enter inputs : ");
 scanf("%d\t%d",&a,&b);
 printf("1: HCF \n2.LCM\n");
@@ -41,7 +41,7 @@ case 1:
 
     break;
 case 2:
-    l = lcm(a,b);
+    lcm(a,b);
       break;
       default: break;
     }
