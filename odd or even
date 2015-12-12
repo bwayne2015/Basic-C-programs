@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int a; //initialize the variables
-printf("Enter number:");
-scanf("%d",&a);//take the number as input
+    int a; //initialize the variables
+    printf("Enter number:");
+    scanf("%d",&a);//take the number as input
 if(a%2 == 0)//condition
-    printf("even");
+        printf("even");
 else
-    printf("odd");//Now performing the addition in print syntax itself
+        printf("odd");//Now performing the addition in print syntax itself
 }
